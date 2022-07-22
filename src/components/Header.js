@@ -5,16 +5,16 @@ import Button from './Button'
 
 const Header = () => {
   return (
-    <div className='header'>
+    <div className='header' id="home">
       <nav>
         <div className="logo">
             <img src={logo} alt="" />
         </div>
         <div className="linksarea">
           <ul>
-            <li ><a href="#" className='active'>Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
+            <li ><a href="#home" className='active'>Home</a></li>
+            <li><a href="#hero">About us</a></li>
+            <li><a href="#hero">Services</a></li>
           </ul>
         </div>
        <Button text="Contact Us" bgcolor="orangebtn"/>
