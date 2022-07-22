@@ -3,7 +3,7 @@ import "./Hero.css";
 import Button from "./Button";
 import vector1 from "../img/Vector1.png";
 import vector2 from "../img/Vector2.png";
-import mypix from "../img/ppix8bg.png";
+import mypix from "../img/ppix1bg.png";
 import glasses from "../img/glasses.png";
 import glassemoji from "../img/glassesimoji.png";
 import heart from "../img/heartemoji.png";
@@ -11,7 +11,7 @@ import purpleblur from '../img/purpleblur.png';
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="title">
         <div className="writeup">
         <h3>Hi there, I am</h3>
