@@ -1,0 +1,112 @@
+.hero {
+  display: flex;
+  height: 500px;
+  margin-top: 40px;
+  /* background-color: aqua; */
+}
+
+.title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 1rem 3.5rem;
+}
+
+.pix {
+  position: relative;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.pix img {
+  position: absolute;
+  width: 25rem;
+}
+
+.pix img:nth-child(1) {
+    width: 35rem;
+    transform: rotateY(25deg);
+    /* top: 5rem; */
+    /* left: 5rem; */
+  }
+
+.pix img:nth-child(2) {
+    width: 30rem;
+    top: 5rem;
+    /* left: 5rem; */
+  }
+
+  .pix img:nth-child(3) {
+    /* width: 30rem;
+    top: 5rem; */
+    /* left: 5rem; */
+    border-radius: 50%;
+  }
+
+.pix img:nth-child(4) {
+  width: 5rem;
+  top: 0;
+  left: 5rem;
+}
+
+.pix img:nth-child(5) {
+  width: 5rem;
+  top: 0;
+  right: 5rem;
+}
+
+.pix img:nth-child(6) {
+  width: 5rem;
+  bottom: 0;
+  left: 5rem;
+}
+
+.pix img:nth-child(7) {
+    z-index: -5;
+    /* width: 5rem; */
+    top: 0;
+    right: 0;
+  }
+
+  .pix img:nth-child(8) {
+    z-index: -5;
+    /* width: 5rem; */
+    bottom: 0;
+    left: 0;
+  }  
+
+  /* .pix img:nth-child(7) {
+    z-index: -5;
+width: 5rem;
+    top: 0;
+    right: 0;
+  }   */
+h3 {
+  color: var(--orange);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p{
+  margin-bottom: 1rem;
+}
+
+
+
+/* Media Query starts here */
+@media screen and (max-width:576px){
+  .hero {
+    flex-direction: column;
+    height: 1000px;
+    margin-top: 0;
+  }
+
+}

@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3.5rem;
+}
+
+.logo img{
+    width: 2rem;
+}
+
+.linksarea{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksarea ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+}
+
+.linksarea ul li{
+    margin: 0.5rem;
+}
+
+.linksarea ul li:hover{
+    transform: scale(1.1);
+    color: var(--grey);
+}
+
+.linksarea ul li a{
+    text-decoration: none;
+}
+
+
+.active{
+    transform: scale(1.2);
+    color: var(--orange);
+    font-weight: bold;
+}

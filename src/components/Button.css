@@ -1,0 +1,7 @@
+.orangebtn{
+    padding: 5px 20px;
+    border-radius: 25px;
+    background-color: var(--orange);
+    border: none;
+    box-shadow: var(--smboxShadow);
+}
